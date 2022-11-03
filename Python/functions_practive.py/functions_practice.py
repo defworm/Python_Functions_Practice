@@ -12,7 +12,7 @@ def eat_lunch(my_list):
             if i == 0:
                 print("First I eat my {my_list[0]}")
             else:
-                print("Next I eat my {my_list[i]")
+                print("Next I eat my {my_list[i]}")
 
 hello()
 print(pack("a", "b", "c"))
