@@ -1,18 +1,18 @@
 def hello():
-print ("Hello!")
+    print ("Hello!")
 
-def pack(a, b, c)
-    return [a, b, c]
+def pack(a, b, c):
+    return [a,b,c]
 
-def eat_lunch(my_list):
-    if len(my_list) == 0:
+def eat_lunch(my_lst):
+    if len(my_lst) == 0:
         print("My lunchbox is empty")
     else:
-        for i in range(len(my_list)):
+        for i in range(len(my_lst)):
             if i == 0:
-                print("First I eat my {my_list[0]}")
+                print(f"First I eat my {my_lst[0]}")
             else:
-                print("Next I eat my {my_list[i]}")
+                print(f"Next I eat my {my_lst[i]}")
 
 hello()
 print(pack("a", "b", "c"))
